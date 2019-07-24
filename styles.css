@@ -1,9 +1,10 @@
 h1{
   border-bottom:3px dashed white;
   font-family: 'Satisfy', cursive;
-  margin-left: 3.5in;
-  margin-right: 3.5in;
+  margin-left: 4in;
+  margin-right: 4in;
   font-size: 40px;
+  text-align: center;
 }
 img{
   height:2.5in;
@@ -15,9 +16,28 @@ img{
 body{
   background-color:#A7DCE8;
   margin-left: .25in;
-  margin-right: .2s5in;
+  margin-right: .25in;
+}
+div{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-@media
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+    margin-left: 3in;
+    margin-right: 3in;
+  }
+}
+@media screen and (max-width: 812px) {
+  h1 {
+    font-size: 15px;
+    margin-right: 1in;
+    margin-left: 1in;
+}
+@media screen and (max-width:875px) {
+  h1 {
+    font-size: 23px;
+  }
+}
