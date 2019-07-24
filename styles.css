@@ -1,0 +1,23 @@
+h1{
+  border-bottom:3px dashed white;
+  font-family: 'Satisfy', cursive;
+  margin-left: 3.5in;
+  margin-right: 3.5in;
+  font-size: 40px;
+}
+img{
+  height:2.5in;
+  width:2.5in;
+  border: .2in solid white;
+  border-bottom: .75in solid white;
+  margin: .25in;
+}
+body{
+  background-color:#A7DCE8;
+  margin-left: .25in;
+  margin-right: .2s5in;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media
